@@ -1,7 +1,7 @@
 ##########################################################################
 # Title:         Sandpit: Flame Dashboard | Default Variables            #
 # Author(s):     CHAIR/Raneydazed                                        #
-# URL:           https://github.com/saltyorg/Sandpit                     #
+# URL:           https://github.com/r3dlobst3r/Sandpit                     #
 # --                                                                     #
 ##########################################################################
 #                   GNU General Public License v3.0                      #
@@ -63,7 +63,7 @@ flame_docker_container: "{{ flame_name }}"
 
 # Image
 flame_docker_image_pull: true
-flame_docker_image_tag: "latest"
+flame_docker_image_tag: "multiarch"
 flame_docker_image: "pawelmalak/flame:{{ flame_docker_image_tag }}"
 
 # Ports

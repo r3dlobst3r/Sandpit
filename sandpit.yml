@@ -11,7 +11,6 @@
   roles:
     - { role: pre_tasks }
     - { role: myrole, tags: ['myrole'] }
-    - { role: helloworld, tags: ['helloworld'] }
     - { role: crowdsec, tags: ['crowdsec'] }
     - { role: flame, tags: ['flame'] }
     - { role: immich, tags: ['immich'] }

@@ -10,7 +10,7 @@ Importer docs: <https://docs.firefly-iii.org/data-importer>
 
 Get her set up. This is set up to use authelia as an auth provider out of the box. If you intend to disable authelia authentication, be aware of the security risks involved, being that this will potentially house very sensitive info. I have currated this entirely to fit within the saltbox eco system, so edit things with that in mind.
 
-1. Clone the Sandpit repo (click the `Code` dropdown button above, and copy the https web url, ie <https://github.com/saltyorg/Sandpit.git>), ie `git clone https://github.com/saltyorg/Sandpit.git` or copy and paste the Firefly and Importer files, grab the relevant info somehow, and place them (for the purposes of this tutorial) in `/opt/firefly`.
+1. Clone the Sandpit repo (click the `Code` dropdown button above, and copy the https web url, ie <https://github.com/r3dlobst3r/Sandpit.git>), ie `git clone https://github.com/r3dlobst3r/Sandpit.git` or copy and paste the Firefly and Importer files, grab the relevant info somehow, and place them (for the purposes of this tutorial) in `/opt/firefly`.
 2. Change all of the entries in the compose file containing `.domain.tld` with your domain and top level domain. (hint, its easy with the sandbox `Coder` role)
 3. Look through `firefly.env` and `firefly.importer.env` and adjust or append the necessary info to each field as needed. You won't need to adjust the `AUTHENTICATION` variables in the `firefly.env` file, that is already set up to work with authelia.
 
